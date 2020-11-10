@@ -11,7 +11,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 
 public class WatchStore implements Store{
-       ArrayList<Time> time = new ArrayList<>() ;  
+       ArrayList<Time> time;  
        
        WatchStore(){
            time = new ArrayList<>();
