@@ -33,8 +33,10 @@ public class WatchStore implements Store{
                      return o1.GetPrice() > o2.GetPrice() ? 1:-1;
                  }
              };
-             System.err.println(Collections.max(time, comp).GetName());
-             System.err.println(Collections.max(time, comp).GetPrice());
+                  
+             Time t = Collections.max(time, comp);
+             System.err.println(t.GetName());
+             System.err.println(t.GetPrice());
            }   
        }
        
